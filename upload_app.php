@@ -104,9 +104,14 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             </div>
 
             <div class="mb-4">
-                <label for="app_icon" class="block text-sm font-medium text-white">Icono de la Aplicación</label>
+                <label for="app_icon" class="block text-sm font-medium text-white">Icono de la Aplicación (archivo JPG o PNG)</label>
                 <input type="file" id="app_icon" name="app_icon" accept="image/*" class="w-full p-2 mt-2 bg-gray-700 text-white rounded-lg" required>
             </div>
+            <div class="p-4 mb-4 text-sm text-blue-800 rounded-lg bg-blue-50 dark:bg-gray-800 dark:text-blue-400" role="alert">
+  <span class="font-medium">No tienes donde subir tu apk?</span> subelo a : <a href="https://catbox.moe"><i>Catbox.moe</i></a>
+</div>
+
+            <br>
 
             <div class="mb-4 text-center">
                 <button type="submit" class="bg-blue-600 text-white px-6 py-2 rounded-lg">Subir Aplicación</button>
